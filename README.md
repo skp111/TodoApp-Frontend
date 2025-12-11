@@ -1,16 +1,23 @@
-# React + Vite
+TodoApp Frontend 📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Todo Application frontend built using React, Vite, and Tailwind CSS.
+It provides a responsive interface to create, update, and manage todos while interacting with the backend API using JWT authentication.
 
-Currently, two official plugins are available:
+🚀 Live Demo
+[Click here to view the deployed site](https://skp-todoapp.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Features
+🔹 Responsive design for desktop & mobile
+🔹 View all todos and filter by status (completed, active)
+🔹 Add, edit, and delete todos
+🔹 JWT-based authentication integrated with backend
+🔹 Toast notifications for actions (success/error)
+🔹 Smooth UI transitions & interactive buttons
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Technologies Used
+🔹React – UI framework
+🔹Vite – Build tool
+🔹Tailwind CSS – Styling
+🔹Axios – API calls
+🔹React Router – Client-side routing
+🔹React Hot Toast – Notifications
